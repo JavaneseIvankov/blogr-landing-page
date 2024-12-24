@@ -19,34 +19,37 @@
       <div class="container">
          <section id="header">
             <img src="images/logo.svg" alt="" class="header__logo logo">
+            <button class="header__menu-button mobile-only cta">
+               <img src="images/icon-hamburger.svg" alt="">
+            </button>
             <div class="header__menu">
                <nav>
                   <div class="menu__nav collapsable">
                      <button class="nav__header popover-button">Product</button>
-                     <dialog class="nav__dialog">
+                     <div class="nav__dialog">
                         <a href="#overview" class="nav__item">Overview</a>
                         <a href="#pricing" class="nav__item">Pricing</a>
                         <a href="#marketplace" class="nav__item">Marketplace</a>
                         <a href="#features" class="nav__item">Features</a>
                         <a href="#integrations" class="nav__item">Integrations</a>
-                     </dialog>
+                     </div>
                   </div>
                   <div class="menu__nav collapsable">
                      <button class="nav__header popover-button">Company</button>
-                     <dialog class="nav__dialog">
+                     <div class="nav__dialog">
                         <a href="#about" class="nav__item">About</a>
                         <a href="#team" class="nav__item">Team</a>
                         <a href="#blog" class="nav__item">Blog</a>
                         <a href="#careers" class="nav__item">Careers</a>
-                     </dialog>
+                     </div>
                   </div>
                   <div class="menu__nav collapsable">
                      <button class="nav__header  popover-button">Connect</button>
-                     <dialog class="nav__dialog">
+                     <div class="nav__dialog">
                         <a href="#contact" class="nav__item">Contact</a>
                         <a href="#newsletter" class="nav__item">Newsletter</a>
                         <a href="#linkedin" class="nav__item">LinkedIn</a>
-                     </dialog>
+                     </div>
                   </div>
                </nav>
                <div class="menu__ctas ctas">
@@ -97,7 +100,10 @@
                      </p>
                   </div>
                </div>
-               <div class="img-wrapper"><img src="images/illustration-editor-desktop.svg" alt="" class="feature__img"></div>
+               <div class="img-wrapper desktop-only"><img src="images/illustration-editor-desktop.svg" alt=""
+                     class="feature__img desktop-only"></div>
+               <div class="img-wrapper mobile-only"><img src="images/illustration-editor-mobile.svg" alt=""
+                     class="feature__img mobile-only"></div>
             </div>
 
          </div>
@@ -126,7 +132,11 @@
       <div class="feature" id="feature-3">
          <div class="container">
             <div class="feature__content">
-               <div class="img-wrapper"><img src="images/illustration-laptop-desktop.svg" alt="" class="feature__img">
+               <div class="img-wrapper desktop-only"><img src="images/illustration-laptop-desktop.svg" alt=""
+                     class="feature__img desktop-only">
+               </div>
+               <div class="img-wrapper mobile-only"><img src="images/illustration-laptop-mobile.svg" alt=""
+                     class="feature__img mobile-only">
                </div>
                <div class="feature__details-wrapper">
                   <div class="flex-col">
@@ -190,6 +200,7 @@
          Mentor</a>.
       Coded by <a href="#">Priyambodo Arundaya Satmika/a>.
    </div> -->
+   <script src="index.js"></script>
 </body>
 
 </html>
