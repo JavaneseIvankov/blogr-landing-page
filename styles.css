@@ -2,10 +2,6 @@
    border: 1px red solid;
 }
 
-.attribution {
-   display: none;
-}
-
 :root {
    /* Primary */
    --light-red: hsl(356, 100%, 66%);
@@ -421,9 +417,6 @@ main h6 {
 
 #feature-3 {
    overflow-y: hidden;
-}
-
-#feature-3 .img-wrapper {
 }
 
 #feature-3 img {
